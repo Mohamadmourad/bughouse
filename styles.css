@@ -90,7 +90,7 @@ nav p{
 
 .newsSection{
     width: 90%;
-    height: 400px;
+    height: 500px;
     background-color: white;
     margin-top: 10px;
     border-radius: 12px;
@@ -159,10 +159,10 @@ nav p{
 
 
 .whatIsBody{
-    width: 85%;
+    width: 90%;
     border-radius: 12px;
     background-color: #22201F;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 500;
     padding: 5px;
     text-align: center;
