@@ -4,8 +4,12 @@
     padding: 0;
     margin: 0;
     transition: all 0.15s;
-    Box-sizing: border-box;
+    box-sizing: border-box;
     Scroll-behavior:smooth;
+}
+
+html,body{
+    overflow-x: hidden;
 }
 
 body{
@@ -13,6 +17,8 @@ body{
     display: flex;
     flex-direction: column;
     color: white;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 .title{
@@ -27,7 +33,7 @@ body{
     width: 200px;
     height: 200px;
     position: absolute;
-    right: -20px;
+    right: 10px;
     top: 180px;
 }
 
@@ -92,7 +98,7 @@ nav p{
     width: 90%;
     height: 500px;
     background-color: white;
-    margin-top: 10px;
+    margin-top: 40px;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -149,7 +155,7 @@ nav p{
 }
 
 .whatIs{
-    margin:80px 0 0 10px;
+    margin:160px 0 0 10px;
     color: #FFBB00;
     font-weight: bold;
     display: flex;
@@ -169,3 +175,82 @@ nav p{
     text-align: center;
     margin-top: 10px;
 }
+
+.container {
+    position: relative;
+    background: #343434;
+    height: 200px;
+  }
+  
+  .wave {
+    position: absolute;
+    height: 69px;
+    width: 100%;
+    background: #343434;
+    bottom: 0;
+  }
+  
+  .wave::before, .wave::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+  }
+  
+  .wave::before {
+    width: 55%;
+    height: 109%;
+    background-color: #fff;
+    right: -1.5%;
+    top: 60%;
+  }
+  .wave::after {
+    width: 55%;
+    height: 100%;
+    background-color: #343434;
+    left: -1.5%;
+    top: 40%;
+  }
+
+  .winner{
+    background-color: #fff;
+    color: #343434;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .winner u{
+    margin-top: 60px;
+    font-size: 23px;
+    font-weight: bold;
+  }
+
+  .leaderboard{
+    background-color: #fff;
+    height: 400px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .num1{
+    color: #FFBB00;
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 70px;
+  }
+
+  .num2{
+    color: silver;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+
+  .num3{
+    color: brown;
+    font-weight: 600;
+    margin-top: 30px;
+  }
