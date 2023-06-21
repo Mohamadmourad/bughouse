@@ -50,6 +50,7 @@ nav{
     margin-top: 180px;
     border-radius: 10px;
     height: 320px;
+    overflow-y: auto;
 }
 
 nav i{
@@ -228,7 +229,7 @@ nav p{
 
   .leaderboard{
     background-color: #fff;
-    height: 400px;
+    height: 250px;
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -254,3 +255,81 @@ nav p{
     font-weight: 600;
     margin-top: 30px;
   }
+
+  .space{
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 54%, rgba(52,52,52,1) 79%);
+height: 400px;
+  }
+
+  .contactInfo{
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contactTitle{
+   position: relative;
+   top: -70px;
+   font-size: 18px;
+   font-weight: bold;
+  }
+
+
+  .contactInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .phoneNum,.email{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  .email{
+    font-size: 12px;
+    margin-top: 20px;
+  }
+
+  .socials{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    font-size: 30px;
+  }
+
+  .madeBy{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+
+  .madeBy p{
+    color: #FFBB00;
+    font-weight: bold;
+  }
+
+  .newsNav:active{
+    background-color: #343434;
+  }
+
+  .whatIsNav:active{
+    background-color: #343434;
+  }
+
+  .latestwinnerNav:active{
+  background-color: #343434;
+  }
+
+  .contactNav:active{
+  background-color: #343434;
+  }
+
+
+
+  
